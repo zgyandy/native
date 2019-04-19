@@ -1,5 +1,21 @@
-@charset "utf-8";
-
-div {
-  height: 121px;
+@import "./var";
+@import "./reset";
+// 公共css
+.layout {
+  width: 1200px;
+  margin: 0 auto;
+}
+.headerBox {
+  background: #fff;
+  .header {
+    height: 32px;
+    .layouts.floatBox;
+    div {
+      background: #fff;
+    }
+    .left {
+      height: 20px;
+      margin-top: 10px;
+    }
+  }
 }

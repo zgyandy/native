@@ -1,6 +1,7 @@
-{
+{ 
   "less.compile": {
     "compress": true,
-    "out": "${workspaceRoot}//assets//css//"
+    "out": "${workspaceRoot}//assets//css//",
+    "sourceMap": true
   }
 }

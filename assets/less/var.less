@@ -1,0 +1,22 @@
+@charset "utf-8";
+// 布局
+.layouts () {
+  // 浮动
+  .floatBox {
+    &::after {
+      overflow: hidden;
+      zoom: 1;
+    }
+    >.left {
+      float: left;
+    }
+    >.right {
+      float: right;
+    }
+  }
+  // flex布局
+  .flexBox {
+    display: flex;
+    display: -webkit-flex;
+  }
+}
